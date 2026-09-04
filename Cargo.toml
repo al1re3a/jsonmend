@@ -1,0 +1,16 @@
+[package]
+name = "jsonmend"
+version = "1.0.0"
+edition = "2021"
+description = "Conservatively repair common JSON mistakes in LLM and CLI output"
+license = "MIT"
+repository = "https://github.com/al1re3a/jsonmend"
+keywords = ["json", "llm", "cli", "repair"]
+categories = ["command-line-utilities", "parser-implementations"]
+
+[lib]
+path = "src/lib.rs"
+
+[[bin]]
+name = "jsonmend"
+path = "src/main.rs"
